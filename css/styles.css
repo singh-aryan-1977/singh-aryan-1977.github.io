@@ -11319,9 +11319,18 @@ section.resume-section .resume-section-content {
 }
 
 .cpp-icon {
+  position: relative;
   display: inline-block;
-  width: 24px;
-  height: 24px;
-  background: url("c++.png") no-repeat center center;
-  background-size: contain;
+  width: 48px;
+  height: 48px;
+  background-color: #00599c;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 48px;
+  text-align: center;
+}
+.cpp-icon::before {
+  content: "C++";
 }
