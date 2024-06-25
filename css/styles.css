@@ -10970,3 +10970,11 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.cpp-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url('cpp-icon.png') no-repeat center center;
+  background-size: contain;
+}
